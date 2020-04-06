@@ -1,0 +1,40 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/homenavbar.ejs') %>
+<div class="masthead">
+    <div class="container h-100 ">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+                <h1 class="text-uppercase text-white font-weight-bold">Bem vindo ao meu Site</h1>
+                <hr class="divider my-4" />
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-white font-weight-light mb-5">Confira logo abaixo os nossos Artigos</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#Artigos-div">Confira</a>
+            </div>
+        </div>
+    </div>
+</div>
+<body class="body" id="body">
+   <div class="container mt-5 ">
+       <h2 class="title align-text-top" id="Artigos-div">Artigos</h2>
+       <hr class="divider my-4">
+        <% articles.forEach(article => { %>
+            <div class="card">
+                <div class="card-header">
+                    <h2><%=article.title %></article></h2>
+                </div>
+                <div class="card-body">
+                    <a href="/<%= article.slug %>"><button class="btn btn-success">Ler Artigo</button></a>
+                </div>
+            </div>
+            <br>
+        <% }) %>
+        <div class="row">
+            <div class="col col-12">
+                <a style="float:right" href="/articles/page/2">Next >>></a>
+            </div>
+            <hr>
+        </div>
+        <hr>
+
+<%- include ('partials/footer.ejs') %>

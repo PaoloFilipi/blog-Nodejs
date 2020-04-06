@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Nodejs</title>
+
+    <!--carregando arquivos staticos do css-->
+    <link href="css/css/styles.css" rel="stylesheet" />
+    
+    <!--carregando arquivos staticos do bootstrap-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    
+
+    <!--Icones bootstrap-->
+    <link href="../../public/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+<!--importando o tinymce-->
+<script src="/tinymce/js/tinymce/tinymce.min.js"></script>
+<script>
+    tinymce.init({
+        language: 'pt_BR',
+        selector:"#article",
+        plugins: [
+            'advlist autolink link image lists print preview hr searchreplace wordcount fullscreen insertdatetime media save table paste emoticons'
+        ]
+    });
+</script>
+</head>
