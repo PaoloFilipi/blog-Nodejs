@@ -3,7 +3,7 @@ Blog utilizando Nodejs para fins de estudos
 
 Nesse projeto pude entender melhor como utilizar o Nodejs
 ------
-  Se trata de um blog que possui uma área de admin, onde o admin consegue criar novas categorias e artigos, os mesmos são carregados de   forma dinâmica para os respectivos lugares(navbar e o conteúdo do índice).Nesse projeto pude também trabalhar com middleware para me     ajudar na autenticação do admin. 
+  Se trata de um blog que possui uma área de admin, onde o admin consegue criar novas categorias e artigos, os mesmos são carregados de   forma dinâmica para os respectivos lugares(navbar e o conteúdo do índice).No projeto pude também trabalhar com middleware para me ajudar na autenticação do admin. 
 
 
 
