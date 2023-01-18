@@ -26,7 +26,7 @@ E o banco de dados **MySql**
 
 Objetivo com o projeto:
 ------
-Meu objetivo foi de dar avançar meus estudos utilizando o Nodejs e entender um pouco como criar uma área de admin.
+Meu objetivo foi de avançar meus estudos utilizando o Nodejs e entender um pouco como criar uma área de admin.
                                            
 
 
